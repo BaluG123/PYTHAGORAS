@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "level": 1,
+        "question": "What has to be broken before you can use it?",
+        "answer": "egg",
+        "hint": "Breakfast item",
+        "difficulty": "easy"
+    },
+    {
+        "id": 2,
+        "level": 2,
+        "question": "I’m tall when I’m young, and I’m short when I’m old. What am I?",
+        "answer": "candle",
+        "hint": "Light source",
+        "difficulty": "easy"
+    },
+    {
+        "id": 3,
+        "level": 3,
+        "question": "What month of the year has 28 days?",
+        "answer": "all",
+        "hint": "Think carefully",
+        "difficulty": "easy"
+    },
+    {
+        "id": 4,
+        "level": 4,
+        "question": "What is full of holes but still holds water?",
+        "answer": "sponge",
+        "hint": "Kitchen item",
+        "difficulty": "easy"
+    },
+    {
+        "id": 5,
+        "level": 5,
+        "question": "What question can you never answer yes to?",
+        "answer": "are you asleep",
+        "hint": "State of consciousness",
+        "difficulty": "easy"
+    },
+    {
+        "id": 6,
+        "level": 6,
+        "question": "What is always in front of you but can’t be seen?",
+        "answer": "future",
+        "hint": "Time related",
+        "difficulty": "medium"
+    },
+    {
+        "id": 7,
+        "level": 7,
+        "question": "There’s a one-story house in which everything is yellow. Yellow walls, yellow doors, yellow furniture. What color are the stairs?",
+        "answer": "no stairs",
+        "hint": "One-story house",
+        "difficulty": "medium"
+    },
+    {
+        "id": 8,
+        "level": 8,
+        "question": "What can you break, even if you never pick it up or touch it?",
+        "answer": "promise",
+        "hint": "Trust related",
+        "difficulty": "medium"
+    },
+    {
+        "id": 9,
+        "level": 9,
+        "question": "What goes up but never comes down?",
+        "answer": "age",
+        "hint": "Time related",
+        "difficulty": "medium"
+    },
+    {
+        "id": 10,
+        "level": 10,
+        "question": "A man who was outside in the rain without an umbrella or hat didn’t get a single hair on his head wet. Why?",
+        "answer": "bald",
+        "hint": "Hair related",
+        "difficulty": "medium"
+    }
+]
