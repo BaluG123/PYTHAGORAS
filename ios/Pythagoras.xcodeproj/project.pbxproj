@@ -11,9 +11,9 @@
 		307D33B29325333BC773B2FC /* libPods-Pythagoras.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA9D565FE5A13C3BA3655F0 /* libPods-Pythagoras.a */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		FA31B9D4FFFF2FA80D794A1A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
-		E31C90ACED2B456EA2EEA895 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 593516D2FB434855840CF800 /* lose.mp3 */; };
 		8D6BFE70B10B458989F566E7 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19A725CE979C4EAA8F5CFD3E /* win.mp3 */; };
+		E31C90ACED2B456EA2EEA895 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 593516D2FB434855840CF800 /* lose.mp3 */; };
+		FA31B9D4FFFF2FA80D794A1A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +21,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Pythagoras/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Pythagoras/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Pythagoras/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		19A725CE979C4EAA8F5CFD3E /* win.mp3 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = win.mp3; path = ../src/assets/sounds/win.mp3; sourceTree = "<group>"; };
+		593516D2FB434855840CF800 /* lose.mp3 */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = lose.mp3; path = ../src/assets/sounds/lose.mp3; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Pythagoras/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Pythagoras/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85ECE97E94C08AC925C64630 /* Pods-Pythagoras.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pythagoras.release.xcconfig"; path = "Target Support Files/Pods-Pythagoras/Pods-Pythagoras.release.xcconfig"; sourceTree = "<group>"; };
 		AFA9D565FE5A13C3BA3655F0 /* libPods-Pythagoras.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pythagoras.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE7011E5C2C09474AF34A12 /* Pods-Pythagoras.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pythagoras.debug.xcconfig"; path = "Target Support Files/Pods-Pythagoras/Pods-Pythagoras.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		593516D2FB434855840CF800 /* lose.mp3 */ = {isa = PBXFileReference; name = "lose.mp3"; path = "../src/assets/sounds/lose.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		19A725CE979C4EAA8F5CFD3E /* win.mp3 */ = {isa = PBXFileReference; name = "win.mp3"; path = "../src/assets/sounds/win.mp3"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +53,16 @@
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 			);
 			name = Pythagoras;
+			sourceTree = "<group>";
+		};
+		1C3E8DF9C9A549B0B923EEE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				593516D2FB434855840CF800 /* lose.mp3 */,
+				19A725CE979C4EAA8F5CFD3E /* win.mp3 */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -102,16 +112,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		1C3E8DF9C9A549B0B923EEE5 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				593516D2FB434855840CF800 /* lose.mp3 */,
-				19A725CE979C4EAA8F5CFD3E /* win.mp3 */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
