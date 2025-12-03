@@ -18,7 +18,7 @@ import riddles from '../data/riddles.json';
 import * as Animatable from 'react-native-animatable';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import LottieView from 'lottie-react-native';
-import Sound from 'react-native-sound';
+import SoundPlayer from 'react-native-sound-player';
 
 const GameScreen = ({ navigation }) => {
     const { colors, isDark } = useTheme();
@@ -40,23 +40,27 @@ const GameScreen = ({ navigation }) => {
         }
     }, [currentLevel]);
 
+    const playSound = (soundName) => {
+        try {
+            SoundPlayer.playSoundFile(soundName, 'mp3');
+        } catch (error) {
+            console.log('Error playing sound:', error);
+        }
+    };
+
     const checkAnswer = () => {
         if (!currentRiddle) return;
 
         if (answer.trim().toLowerCase() === currentRiddle.answer.toLowerCase()) {
             setIsWin(true);
             setModalVisible(true);
-            const winSound = new Sound('win.mp3', Sound.MAIN_BUNDLE, (error) => {
-                if (!error) winSound.play();
-            });
+            playSound('win');
         } else {
             setShakeAnimation('shake');
             setTimeout(() => setShakeAnimation(null), 1000);
             setIsWin(false);
             setModalVisible(true);
-            const loseSound = new Sound('lose.mp3', Sound.MAIN_BUNDLE, (error) => {
-                if (!error) loseSound.play();
-            });
+            playSound('lose');
         }
     };
 
